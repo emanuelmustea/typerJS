@@ -1,4 +1,6 @@
-     TyperJS | A small javascript library for creating beautiful, animated typing effects          
+##TyperJS | A small javascript library for creating beautiful, animated typing effects          
+### A small javascript library for creating beautiful, animated typing effects
+[View Examples](#examples)
 
 Toggle navigation [TyperJS](#page-top)
 
@@ -10,9 +12,8 @@ Toggle navigation [TyperJS](#page-top)
 *   [Examples](#examples)
 *   [License](#license)
 
-### A small javascript library for creating beautiful, animated typing effects
 
-[GitHub page](http://github.com/) [View Examples](#examples)
+
 
 Features
 ========
