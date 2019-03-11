@@ -253,9 +253,7 @@ This method reloads the entire TyperJS object. If you want to change the initial
       interval: 100,
       delay:0
     };
-    typer.reload(newOptions); //in this case the script is reloaded and only interval and delay options are changed
-    
-    ```
+    typer.reload(newOptions); //in this case the script is reloaded and only interval and delay options are changed````
 
 ### `destroy()`
 
