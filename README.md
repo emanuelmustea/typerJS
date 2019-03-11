@@ -237,7 +237,8 @@ This method reloads the entire TyperJS object. If you want to change the initial
   
 **`reload()` example:**
 
-    var typer = new Typer({
+   ```javascript
+   var typer = new Typer({
       elem:'.typer-container',
       typeText:["First text", "Second text"],
       debug: false,
@@ -254,6 +255,7 @@ This method reloads the entire TyperJS object. If you want to change the initial
     };
     typer.reload(newOptions); //in this case the script is reloaded and only interval and delay options are changed
     
+    ```
 
 ### `destroy()`
 
