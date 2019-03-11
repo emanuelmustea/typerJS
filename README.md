@@ -1,15 +1,11 @@
-##TyperJS | A small javascript library for creating beautiful, animated typing effects          
 ### A small javascript library for creating beautiful, animated typing effects
-[View Examples](#examples)
 
-Toggle navigation [TyperJS](#page-top)
 
 *   [Features](#features)
 *   [Installation](#installation)
 *   [Usage](#usage)
 *   [Options](#options)
 *   [Methods](#methods)
-*   [Examples](#examples)
 *   [License](#license)
 
 
@@ -264,24 +260,6 @@ This method reloads the entire TyperJS object. If you want to change the initial
 This method destroy the typer.  
 `WARNING:` This method DON'T destroy the typer itself, it only destroy the interval and the variables attached to the typer.
 
-Examples
-========
-
-* * *
-
-Here are some examples of TyperJS in action  
-  
-
-#### Code
-
-#### Demo
-
-    var typer = new Typer({
-    elem:'.typer-demo-first',
-    typeText:'Welcome to TyperJS'
-    })
-                                  
-
 #### Browser support
 
 *   Chrome (latest)
@@ -298,7 +276,6 @@ Here are some examples of TyperJS in action
 *   [Usage](#usage)
 *   [Options](#options)
 *   [Methods](#methods)
-*   [Examples](#examples)
 *   [License](#license)
 
   
@@ -307,4 +284,3 @@ Here are some examples of TyperJS in action
 Open source under [MIT license](https://opensource.org/licenses/MIT)  
 Created with by [Emanuel Mustea](https://musteaemanuel.com)
 
-hljs.initHighlightingOnLoad(); var titleTyper = new Typer({ elem:'.title-animate', typeText:'TyperJS', repeat:1, hideLineOnFinish:false }); var typer = new Typer({ elem:'.typer-demo-first', typeText:'Welcome to TyperJS' })
