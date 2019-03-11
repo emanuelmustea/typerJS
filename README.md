@@ -1,3 +1,4 @@
+##TyperJS
 ### A small javascript library for creating beautiful, animated typing effects
 
 
@@ -27,7 +28,6 @@ Installation
 
 * * *
 
-[Download all TyperJS builds](/build/typer.js.zip)  
   
 TyperJS comes in two variants:
 
