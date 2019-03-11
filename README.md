@@ -44,17 +44,17 @@ TyperJS comes in two variants:
 
 TyperJS can be installed by including the `js` file at the end of the `<body>` tag of your website.  
 `The ES6 version:`
-
+```html
     <script src="/path/to/js/typer.es6.min.js" type="text/javascript" ></script>
-
+```
   
 `The normal version:`
-
+```html
     <script src="/path/to/js/typer.min.js" type="text/javascript" ></script>
-
+```
   
 **Example:**
-
+```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -65,7 +65,7 @@ TyperJS can be installed by including the `js` file at the end of the `<body>` t
         <script src="/path/to/js/typer.min.js" type="text/javascript" ></script>
       </body>
     </html>
-
+```
 Because TyperJS doesn't need aditional libraries like jQuery to run, you can execute the script asynchronously or you can defer the loading for a faster page parsing  
   
 
@@ -77,12 +77,12 @@ Usage
 Please refer to the [Examples](#examples) for detailed usage information.  
 
 ### Create the object
-
+```javascript
     var typer = new Typer({
       elem:'.typer-container',//it can be any css selector
       typeText:'A bunch of text here'
     });
-
+```
 The `elem` and `typeText` options are required. If one of them is missing the script will throw an error and the execution will be stopped.  
 For more informations go to [options](#options) section  
   
@@ -91,16 +91,16 @@ First `span` contains the text itself.
 Second `span` contains the cursor/line.  
   
 **Example of generated code:**  
-
+```html
     <div class="typer-element">
       <span>Text goes here</span>
     
       <span>|</span>
     </div>
-
+```
   
 Because TyperJS doesn't add any css to the element (except the `opacity` for the cursor) feel free to add your own css. **An example can be found below**
-
+```javascript
     /*:first-child selects only the text*/
     .typer-element:first-child{
       font-family:'Verdana';
@@ -110,7 +110,7 @@ Because TyperJS doesn't add any css to the element (except the `opacity` for the
     .typer-element:last-child{
       color:grey;
     }
-
+```
 Options
 =======
 
@@ -203,7 +203,7 @@ Options are properties given to the TyperJS function as an object. `elem` and `t
   
   
 **Example with all options mixed together:**
-
+```javascript
     var typer = new Typer({
       elem:'.typer-container',
       typeText:["First text", "Second text"],
@@ -215,7 +215,7 @@ Options are properties given to the TyperJS function as an object. `elem` and `t
       deleteOnFinish: true,
       hideLineOnFinish: true
     });
-
+```
 Methods
 =======
 
@@ -237,7 +237,7 @@ This method reloads the entire TyperJS object. If you want to change the initial
   
 **`reload()` example:**
 
-   ```javascript
+```javascript
    var typer = new Typer({
       elem:'.typer-container',
       typeText:["First text", "Second text"],
@@ -253,7 +253,8 @@ This method reloads the entire TyperJS object. If you want to change the initial
       interval: 100,
       delay:0
     };
-    typer.reload(newOptions); //in this case the script is reloaded and only interval and delay options are changed```
+    typer.reload(newOptions); //in this case the script is reloaded and only interval and delay options are changed
+```
 
 ### `destroy()`
 
