@@ -100,7 +100,7 @@ Second `span` contains the cursor/line.
 ```
   
 Because TyperJS doesn't add any css to the element (except the `opacity` for the cursor) feel free to add your own css. **An example can be found below**
-```javascript
+```css
     /*:first-child selects only the text*/
     .typer-element:first-child{
       font-family:'Verdana';
