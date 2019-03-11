@@ -34,12 +34,12 @@ TyperJS comes in two variants:
 *   The `ES6 version`:
     *   It's made with pure ES6 syntax using classes and arrow functions
     *   It's very light (~2.6KB when minified)
-    *   Not all browser supports it. [Check compatibility](https://kangax.github.io/compat-table/es6/)
-    *   Perfect for Node or other Typescript fameworks
+    *   Limited browser support. [Check compatibility](https://kangax.github.io/compat-table/es6/)
+    *   Work perfectly with Node and Babel.
 *   The `normal version`:
-    *   It's made with javascript functions
-    *   It's not so light (~4KB when minified)
-    *   All browser supports it (including IE8)
+    *   It's made with pure javascript functions
+    *   It's ight (~4KB when minified)
+    *   Wide browser support. (including IE8)
     *   Perfect for all frontend applications
 
 TyperJS can be installed by including the `js` file at the end of the `<body>` tag of your website.  
